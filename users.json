@@ -1,0 +1,17 @@
+{
+  "users": [{
+    "username": "jess",
+    "password": "123",
+    "role": "an intrepid explorer"
+  },
+    {
+      "username": "bob",
+      "password": "456",
+      "role": "a crafty salesman"
+    },
+    {
+      "username": "alice",
+      "password": "789",
+      "role": "a quick assassin"
+    }]
+}
