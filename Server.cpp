@@ -236,8 +236,7 @@ bool Server::update()
 		printf(this->showScores().c_str());
 
 		// Send the buffer back to the sender
-		//std::string result = this->showMap() + this->showScores();
-		std::string result = "Potatoes";
+		std::string result = this->showMap() + this->showScores();
 		int iSendResult = send(this->ClientSocket, result.c_str(), (int)strlen(result.c_str()), 0);
 		if (iSendResult == SOCKET_ERROR) {
 			printf("send failed with error: %d\n", WSAGetLastError());
